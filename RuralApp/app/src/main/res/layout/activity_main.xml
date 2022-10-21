@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home_image"
+        android:contentDescription="fgdf" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginTop="-90dp"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/iniciar_Sesion"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Iniciar sesión"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#9c9c9c"/>
+        <Button
+            android:id="@+id/registrate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Regístrate"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:backgroundTint="@android:color/black" />
+    </LinearLayout>
+
+
+</LinearLayout>
