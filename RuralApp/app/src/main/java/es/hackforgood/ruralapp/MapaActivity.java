@@ -97,6 +97,14 @@ public class MapaActivity extends AppCompatActivity implements OnMapReadyCallbac
                 mListaPueblos.setAdapter(adapter);
             }
         });
+
+        ImageButton imageButton = (ImageButton) findViewById(R.id.cerrar);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                popUp.setVisibility(View.GONE);
+            }
+        });
     }
 
     @Override
@@ -199,15 +207,15 @@ public class MapaActivity extends AppCompatActivity implements OnMapReadyCallbac
         TextView descripcionPuebloDesplegable = (TextView) findViewById(R.id.descripcion_pueblo);
         descripcionPuebloDesplegable.setText(result.description);
         ImageButton imageButton = (ImageButton) findViewById(R.id.fotoPueblo);
-        if (result.picture == 1){
+        if (nombre.equals("Villanueva de Sigena")){
             imageButton.setImageResource(R.raw.foto1);
-        } else if (result.picture == 2){
+        } else if (nombre.equals("Alcolea")){
             imageButton.setImageResource(R.raw.foto2);
-        } else if (result.picture == 3){
+        } else if (nombre.equals("La Puebla de Hijar")){
             imageButton.setImageResource(R.raw.foto3);
-        } else if (result.picture == 4){
+        } else if (nombre.equals("Fago")){
             imageButton.setImageResource(R.raw.foto4);
-        } else if (result.picture == 5){
+        } else if (nombre.equals("Canfranc")){
             imageButton.setImageResource(R.raw.foto5);
         }
 
