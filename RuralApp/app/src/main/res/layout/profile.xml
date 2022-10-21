@@ -16,32 +16,82 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:paddingLeft="40dp"
-            android:paddingRight="40dp"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="16dp">
+            android:paddingRight="40dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="60dp"
+                android:gravity="center">
+                <ImageButton
+                    android:id="@+id/icon_perfil1"
+                    android:layout_height="200dp"
+                    android:layout_width="200dp"
+                    app:srcCompat="@raw/foto_perfil1"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="@null"
+                    android:layout_gravity="fill"
+                    android:padding="1dp"/>
+            </LinearLayout>
+
 
             <!---SIGN IN-->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="80dp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="30dp"
                 android:layout_marginBottom="5dp"
                 android:layout_marginLeft="0dp"
-                android:text="Perfil"
+                android:text="Marcos"
                 android:textColor="@color/black"
                 android:textSize="40sp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
                 android:layout_marginLeft="0dp"
-                android:text="Trabajos que te pueden interesar..."
+                android:text="ZARAGOZA, ESPAÑA"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="''Mi nombre es Marcos Aranda, actualmente vivo en Zaragoza y me encantaría encontrar un pueblito donde vivir con mi mujer y mis hijos.''"
+                android:textColor="@color/black"
+                android:textSize="13sp" />
+
+
+            <!-- Tus ofertas -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="50dp"
+                android:text="TUS OFERTAS"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="bold" />
-        </LinearLayout>
 
+
+            <Button
+                android:id="@+id/iniciarSesionButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginVertical="90dp"
+                android:text="AÑADIR OFERTAS"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:backgroundTint="@android:color/black" />
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -54,7 +104,7 @@
             <ImageButton
                 android:id="@+id/home"
                 android:layout_height="40dp"
-                app:srcCompat="@raw/casa1"
+                app:srcCompat="@raw/casa"
                 android:scaleType="fitCenter"
                 android:layout_weight="1"
                 android:layout_width="0dp"
@@ -94,7 +144,7 @@
             <ImageButton
                 android:id="@+id/profile"
                 android:layout_height="40dp"
-                app:srcCompat="@raw/perfil"
+                app:srcCompat="@raw/perfil1"
                 android:scaleType="fitCenter"
                 android:layout_weight="1"
                 android:layout_width="0dp"

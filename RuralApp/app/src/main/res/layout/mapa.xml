@@ -25,24 +25,143 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="80dp"
+                android:layout_marginTop="50dp"
                 android:layout_marginBottom="20dp"
                 android:layout_marginLeft="0dp"
                 android:text="Búsqueda"
                 android:textColor="@color/black"
                 android:textSize="40sp" />
 
-            <EditText
-                android:id="@+id/barra_busqueda"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:layout_marginTop="6dp"
-                android:background="@drawable/barra_busqueda"
-                android:hint="Busca tu pueblo ideal"
-                android:inputType="text"
-                android:paddingStart="12dp"
-                android:paddingEnd="12dp"
-                android:textSize="15sp" />
+                android:layout_height="match_parent">
+                <!-- MAP -->
+                <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:map="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="3dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="70dp"
+                    tools:context=".MapsActivity" />
+
+                <ListView
+                    android:id="@+id/lista_pueblos"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="43dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/row_pueblos_lista" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="6dp">
+                    <EditText
+                        android:id="@+id/barra_busqueda"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+
+                        android:background="@drawable/barra_busqueda"
+                        android:hint="Busca tu pueblo ideal"
+                        android:inputType="text"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:textSize="15sp" />
+
+                    <ImageButton
+                        android:id="@+id/buscarPueblo"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="5dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/circle"
+                        android:backgroundTint="@null"
+                        android:padding="1dp"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@raw/lupa_botoncillo" />
+
+                </RelativeLayout>
+
+                <!-- INFORMACIÓN MAPA -->
+                <ScrollView
+                    android:id="@+id/popUpPueblo"
+                    android:layout_marginTop="80dp"
+                    android:layout_height="380dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginHorizontal="10dp"
+                    android:visibility="visible">
+                    <LinearLayout
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:background="@drawable/barra_busqueda"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/nombrePuebloDesplegable"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:text="NombrePueblo"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="25sp" />
+                        <ImageButton
+                            android:id="@+id/fotoPueblo"
+                            android:layout_width="190dp"
+                            android:layout_height="120dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/circle"
+                            android:backgroundTint="@null"
+                            android:padding="1dp"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@raw/foto1" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:text="Descripción"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="15sp" />
+                        <TextView
+                            android:id="@+id/descripcion_pueblo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:layout_marginHorizontal="10dp"
+                            android:text="Descripción"
+                            android:textColor="@color/black"
+                            android:textSize="15sp" />
+                        <TextView
+                            android:id="@+id/alojamiento"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="left"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginHorizontal="10dp"
+                            android:text="Alojamiento gratuito para nuevos habitantes"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="15sp" />
+                    </LinearLayout>
+                </ScrollView>
+            </RelativeLayout>
+
+
+
+
 
         </LinearLayout>
 

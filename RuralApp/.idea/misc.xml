@@ -6,16 +6,18 @@
         <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/drawable-v24/barra_busqueda.xml" value="0.1046875" />
         <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/drawable/barra_navegacion.xml" value="0.1046875" />
         <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/drawable/button_main.xml" value="0.1046875" />
+        <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/drawable/circle.xml" value="0.1925925925925926" />
         <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/drawable/rounded_edittext.xml" value="0.16" />
-        <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/busqueda.xml" value="0.18" />
-        <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/chat.xml" value="0.1" />
+        <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/chat.xml" value="0.18" />
         <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/login.xml" value="0.14" />
-        <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/lupa.xml" value="0.10052083333333334" />
-        <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/mapa.xml" value="0.2" />
+        <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/lupa.xml" value="0.18" />
+        <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/mapa.xml" value="0.25" />
         <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/ofertas.xml" value="0.17" />
-        <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/profile.xml" value="0.1" />
+        <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/profile.xml" value="0.14" />
         <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/register.xml" value="0.12" />
+        <entry key="..\:/Users/jaime/TRABAJOS/SEMESTRE_7/HACKFORGOOD/Android/RuralApp/app/src/main/res/layout/row_pueblos_lista.xml" value="0.22" />
       </map>
     </option>
   </component>

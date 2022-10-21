@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">RuralApp</string>
+    <string name="app_name">Vive Rural</string>
+    <string name="apiMaps">AIzaSyDawU3kFAR8oGAYw2EMC2yneWq5Dax3wLM</string>
 </resources>
