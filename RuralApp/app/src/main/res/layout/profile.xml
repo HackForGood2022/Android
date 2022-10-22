@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:id="@+id/layoutmain">
 
     <LinearLayout
@@ -14,83 +15,204 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:paddingLeft="40dp"
-            android:paddingRight="40dp">
+            android:orientation="vertical">
 
 
-            <LinearLayout
+
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="60dp"
-                android:gravity="center">
-                <ImageButton
-                    android:id="@+id/icon_perfil1"
-                    android:layout_height="200dp"
-                    android:layout_width="200dp"
-                    app:srcCompat="@raw/foto_perfil1"
-                    android:scaleType="fitCenter"
-                    android:background="@drawable/circle"
-                    android:backgroundTint="@null"
-                    android:layout_gravity="fill"
-                    android:padding="1dp"/>
-            </LinearLayout>
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="60dp"
+                        android:gravity="center">
+                        <ImageButton
+                            android:layout_height="200dp"
+                            android:layout_width="200dp"
+                            app:srcCompat="@raw/foto_perfil1"
+                            android:scaleType="fitCenter"
+                            android:background="@drawable/circle"
+                            android:backgroundTint="@null"
+                            android:layout_gravity="fill"
+                            android:padding="1dp"/>
+                    </LinearLayout>
 
 
-            <!---SIGN IN-->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="5dp"
-                android:layout_marginLeft="0dp"
-                android:text="Marcos"
-                android:textColor="@color/black"
-                android:textSize="40sp" />
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:layout_marginLeft="0dp"
-                android:text="ZARAGOZA, ESPAÑA"
-                android:textColor="@color/black"
-                android:textSize="13sp"
-                android:textStyle="bold" />
+                    <!---SIGN IN-->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="0dp"
+                        android:text="Marcos"
+                        android:textColor="@color/black"
+                        android:textSize="40sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginLeft="0dp"
+                        android:text="ZARAGOZA, ESPAÑA"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="''Mi nombre es Marcos Aranda, actualmente vivo en Zaragoza y me encantaría encontrar un pueblito donde vivir con mi mujer y mis hijos.''"
-                android:textColor="@color/black"
-                android:textSize="13sp" />
-
-
-            <!-- Tus ofertas -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="left"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="50dp"
-                android:text="TUS OFERTAS"
-                android:textColor="@color/black"
-                android:textSize="15sp"
-                android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:text="''Mi nombre es Marcos García, actualmente vivo en Zaragoza y me encantaría encontrar un pueblito donde vivir con mi mujer y mis hijos.''"
+                        android:textColor="@color/black"
+                        android:textSize="13sp" />
 
 
-            <Button
-                android:id="@+id/iniciarSesionButton"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginVertical="90dp"
-                android:text="AÑADIR OFERTAS"
-                android:textColor="@color/white"
-                android:textSize="15sp"
-                android:backgroundTint="@android:color/black" />
+                    <!-- Tus ofertas -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="30dp"
+                        android:text="TUS OFERTAS"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+
+                    <!-- OFERTA 1 -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/icon_perfil1"
+                                android:layout_height="30dp"
+                                android:layout_width="30dp"
+                                android:layout_marginTop="5dp"
+                                app:srcCompat="@raw/foto_perfil1"
+                                android:scaleType="fitCenter"
+                                android:background="@drawable/circle"
+                                android:backgroundTint="@null"
+                                android:padding="1dp"/>
+
+                            <LinearLayout
+                                android:layout_width="160dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginLeft="0dp"
+                                    android:text=" Marcos García Pérez"
+                                    android:textColor="@color/black"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginLeft="0dp"
+                                    android:text=" \@marcosgarcia"
+                                    android:textColor="@color/black"
+                                    android:textSize="13sp" />
+
+                            </LinearLayout>
+
+
+                            <ImageButton
+                                android:layout_height="20dp"
+                                android:layout_width="20dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="5dp"
+                                app:srcCompat="@raw/sitio"
+                                android:scaleType="fitCenter"
+                                android:background="@drawable/circle"
+                                android:backgroundTint="@null"
+                                android:padding="1dp"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="0dp"
+                                android:text="La Pueblo de Hijar"
+                                android:textColor="#0645AD"
+                                android:textSize="10sp" />
+
+
+
+                        </LinearLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageButton
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginVertical="5dp"
+                                android:layout_marginHorizontal="5dp"
+                                android:background="@color/white"
+                                android:backgroundTint="@null"
+                                android:scaleType="fitCenter"
+                                app:srcCompat="@raw/agricultor" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:gravity="bottom"
+                                android:shadowColor="@color/black"
+                                android:shadowDx="3"
+                                android:shadowDy="3"
+                                android:shadowRadius="10"
+                                android:text="Bodegas Pepe S.A."
+                                android:textColor="@color/white"
+                                android:textSize="30sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/iniciarSesionButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginBottom="90dp"
+                        android:text="AÑADIR OFERTAS"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:backgroundTint="@android:color/black" />
+
+                </LinearLayout>
+
+            </ScrollView>
         </LinearLayout>
 
         <LinearLayout

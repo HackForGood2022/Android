@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:id="@+id/layoutmain">
 
     <LinearLayout
@@ -15,8 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:paddingLeft="40dp"
-            android:paddingRight="40dp"
+            android:paddingHorizontal="30dp"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="16dp">
 
@@ -40,6 +40,235 @@
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="bold" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <!-- OFERTA 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_height="30dp"
+                        android:layout_width="30dp"
+                        android:layout_marginTop="5dp"
+                        app:srcCompat="@raw/ganaderaredonda"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/circle"
+                        android:backgroundTint="@null"
+                        android:padding="1dp"/>
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="0dp"
+                            android:text=" María Dolores Fernández"
+                            android:textColor="@color/black"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="0dp"
+                            android:text=" \@mariadolores"
+                            android:textColor="@color/black"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+
+                    <ImageButton
+                        android:layout_height="20dp"
+                        android:layout_width="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        app:srcCompat="@raw/sitio"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/circle"
+                        android:backgroundTint="@null"
+                        android:padding="1dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="0dp"
+                        android:text="Villanueva de Sigena"
+                        android:textColor="#0645AD"
+                        android:textSize="10sp" />
+
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginVertical="5dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:background="@color/white"
+                        android:backgroundTint="@null"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@raw/ganadera2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="bottom"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="3"
+                        android:shadowDy="3"
+                        android:shadowRadius="10"
+                        android:text="Fincas Dolores S.A."
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <!-- OFERTA 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/icon_perfil1"
+                        android:layout_height="30dp"
+                        android:layout_width="30dp"
+                        android:layout_marginTop="5dp"
+                        app:srcCompat="@raw/foto_perfil1"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/circle"
+                        android:backgroundTint="@null"
+                        android:padding="1dp"/>
+
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="0dp"
+                            android:text=" Marcos García Pérez"
+                            android:textColor="@color/black"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginLeft="0dp"
+                            android:text=" \@marcosgarcia"
+                            android:textColor="@color/black"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+
+                    <ImageButton
+                        android:layout_height="20dp"
+                        android:layout_width="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"
+                        app:srcCompat="@raw/sitio"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/circle"
+                        android:backgroundTint="@null"
+                        android:padding="1dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="0dp"
+                        android:text="La Pueblo de Hijar"
+                        android:textColor="#0645AD"
+                        android:textSize="10sp" />
+
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginVertical="5dp"
+                        android:layout_marginHorizontal="5dp"
+                        android:background="@color/white"
+                        android:backgroundTint="@null"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@raw/agricultor" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="bottom"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="3"
+                        android:shadowDy="3"
+                        android:shadowRadius="10"
+                        android:text="Bodegas Pepe S.A."
+                        android:textColor="@color/white"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            </LinearLayout>
+            </ScrollView>
+
         </LinearLayout>
 
 
