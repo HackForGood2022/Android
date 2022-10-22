@@ -157,7 +157,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginLeft="0dp"
-                                android:text="La Pueblo de Hijar"
+                                android:text="La Puebla de Hijar"
                                 android:textColor="#0645AD"
                                 android:textSize="10sp" />
 
