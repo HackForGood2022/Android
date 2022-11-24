@@ -28,7 +28,8 @@
                 android:layout_marginTop="50dp"
                 android:layout_marginBottom="20dp"
                 android:layout_marginLeft="0dp"
-                android:text="Búsqueda"
+                android:text="Busqueda"
+                android:fontFamily="@font/perfectdosvga"
                 android:textColor="@color/black"
                 android:textSize="40sp" />
 

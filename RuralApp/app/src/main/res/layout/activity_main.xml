@@ -17,7 +17,7 @@
             android:layout_height="match_parent"
             android:contentDescription="Image home"
             android:scaleType="centerCrop"
-            android:src="@drawable/fondo3" />
+            android:src="@drawable/wallpaper" />
 
 
         <LinearLayout
@@ -35,17 +35,19 @@
                 android:backgroundTint="@null"
                 android:padding="1dp"
                 android:scaleType="fitCenter"
-                app:srcCompat="@raw/logo_shadow" />
+                app:srcCompat="@drawable/viverural" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
                 android:shadowColor="@color/black"
                 android:shadowDx="3"
                 android:shadowDy="3"
                 android:shadowRadius="3"
                 android:text="VIVE RURAL"
+                android:fontFamily="@font/perfectdosvga"
                 android:textColor="@color/white"
                 android:textSize="40sp"
                 android:textStyle="bold" />
@@ -71,10 +73,11 @@
             android:layout_weight="1"
             android:layout_marginVertical="12dp"
             android:layout_marginHorizontal="15dp"
-            android:text="Iniciar sesión"
-            android:textSize="17sp"
+            android:text="Iniciar sesion"
+            android:fontFamily="@font/perfectdosvga"
+            android:textSize="15sp"
             android:textColor="@android:color/white"
-            android:backgroundTint="#cf9c54"/>
+            android:backgroundTint="#144b50"/>
         <Button
             android:id="@+id/registrate"
             android:layout_width="0dp"
@@ -82,9 +85,10 @@
             android:layout_weight="1"
             android:layout_marginVertical="12dp"
             android:layout_marginHorizontal="15dp"
-            android:text="Regístrate"
+            android:text="Registrate"
+            android:fontFamily="@font/perfectdosvga"
             android:textColor="@color/white"
-            android:textSize="17sp"
+            android:textSize="15sp"
             android:backgroundTint="@android:color/black" />
     </LinearLayout>
 

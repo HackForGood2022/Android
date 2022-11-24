@@ -32,11 +32,12 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/perfectdosvga"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginLeft="0dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginBottom="30dp"
-                android:text="Iniciar Sesión"
+                android:text="INICIAR SESION"
                 android:textColor="@color/black"
                 android:textSize="40sp" />
 
@@ -47,6 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:paddingRight="4dp"
+                android:fontFamily="@font/perfectdosvga"
                 android:text="Nombre de usuario"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -68,7 +70,8 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"
                 android:paddingRight="4dp"
-                android:text="Contraseña"
+                android:text="Contrasena"
+                android:fontFamily="@font/perfectdosvga"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
 
@@ -90,7 +93,8 @@
                 android:layout_height="60dp"
                 android:layout_marginVertical="30dp"
                 android:backgroundTint="@android:color/black"
-                android:text="Iniciar sesión"
+                android:fontFamily="@font/perfectdosvga"
+                android:text="Iniciar sesion"
                 android:textColor="@color/white"
                 android:textSize="17sp" />
 

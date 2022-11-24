@@ -36,7 +36,8 @@
                 android:layout_marginTop="80dp"
                 android:layout_marginBottom="30dp"
                 android:layout_marginLeft="0dp"
-                android:text="Registrate"
+                android:text="REGISTRATE"
+                android:fontFamily="@font/perfectdosvga"
                 android:textColor="@color/black"
                 android:textSize="40sp" />
 
@@ -48,6 +49,7 @@
                 android:layout_marginTop="5dp"
                 android:paddingRight="4dp"
                 android:text="Nombre de usuario"
+                android:fontFamily="@font/perfectdosvga"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
 
@@ -69,6 +71,7 @@
                 android:paddingTop="10dp"
                 android:paddingRight="4dp"
                 android:text="Contraseña"
+                android:fontFamily="@font/perfectdosvga"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
 
@@ -89,9 +92,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginVertical="30dp"
-                android:text="Regístrate"
+                android:fontFamily="@font/perfectdosvga"
+                android:text="Registrate"
                 android:textColor="@color/white"
-                android:textSize="17sp"
+                android:textSize="19sp"
                 android:backgroundTint="@android:color/black" />
 
         </LinearLayout>
